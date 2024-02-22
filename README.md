@@ -57,9 +57,16 @@ To fine-tune the Ollama model specifically for financial tasks, ensure you have 
 ## Requirements
 - Python 3.x
 - Required Python packages: panel, langchain_community, Pillow, pytesseract, pandas, pydantic
+## Usage
+1. Run the provided Python scripts for each module.
+2. Follow the instructions within each script for a seamless and interactive financial assistant experience.
+
+Feel free to customize the code according to your requirements or integrate it into your financial management projects! The Financial Assistant aims to provide a versatile, user-friendly, and intelligent solution for managing and analyzing financial information, with a specific focus on fine-tuning the Ollama model for financial tasks using the "financial_planner.txt" file.
 
 ## Installation
 1. Install required packages:
 2. Ensure Tesseract OCR is installed and set the path in the code:
 ```python
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+
